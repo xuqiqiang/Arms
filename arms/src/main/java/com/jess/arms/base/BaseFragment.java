@@ -113,4 +113,12 @@ public abstract class BaseFragment<P extends IPresenter> extends Fragment implem
     public boolean useEventBus() {
         return true;
     }
+
+    /**
+     * 是否使用 ButterKnife
+     */
+    @Override
+    public boolean useButterKnife() {
+        return true;
+    }
 }

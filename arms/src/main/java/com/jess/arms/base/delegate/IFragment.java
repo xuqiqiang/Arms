@@ -71,6 +71,11 @@ public interface IFragment {
     boolean useEventBus();
 
     /**
+     * 是否使用 ButterKnife
+     */
+    boolean useButterKnife();
+
+    /**
      * 初始化 View
      *
      * @param inflater
